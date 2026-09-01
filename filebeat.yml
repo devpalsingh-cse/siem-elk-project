@@ -1,0 +1,12 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/auth.log
+      - /var/log/syslog
+
+output.logstash:
+  hosts: ["localhost:5044"]
+
+# On Kali, copy this file to /etc/filebeat/filebeat.yml, then:
+#   sudo systemctl enable filebeat --now

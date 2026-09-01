@@ -1,0 +1,16 @@
+# Logs
+*.log
+
+# Elasticsearch data volume (if bind-mounted locally)
+es-data/
+
+# Env / secrets
+.env
+
+# OS / editor cruft
+.DS_Store
+*.swp
+
+# Python (if you add analysis scripts later)
+__pycache__/
+*.pyc
