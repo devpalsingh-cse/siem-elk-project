@@ -23,14 +23,6 @@ See [`docs/architecture.md`](docs/architecture.md) for details.
 - Geo map of login attempts (via GeoIP enrichment)
 - Auth event timeline dashboard in Kibana
 
-## Screenshots
-
-![SIEM Dashboard](screenshots/dashboard.png)
-
-*Preview of the target dashboard layout — failed vs. successful logins, top attacker
-IPs, outcome split, and a live events table. After running `docker-compose up -d`
-and building the dashboard in Kibana (see Setup below), replace this file with your
-own screenshot at the same path (`screenshots/dashboard.png`) to show your live results.*
 
 ## Prerequisites
 
